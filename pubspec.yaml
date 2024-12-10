@@ -1,0 +1,49 @@
+name: apkbacaansholat
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.5.3
+
+dependencies:
+  flutter:
+    sdk: flutter  
+  audioplayers: ^0.20.1
+  video_player: ^2.5.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+   - assets/images/ic_bacaan.png
+   - assets/images/ic_doa.png
+   - assets/images/ic_niat.png
+   - assets/images/bg_shalat.png
+   - assets/images/bg_doa.png
+   - assets/images/bg_quran.jpg
+
+   - assets/data/bacaanshalat.json
+   - assets/data/niatshalat.json
+
+   - assets/audio/ayatkursi.mp3
+   - assets/audio/1.mp3
+   - assets/audio/2.mp3
+   - assets/audio/3.mp3
+   - assets/audio/4.mp3
+   - assets/audio/5.mp3
+
+   - assets/videos/1.mp4
+   - assets/videos/2.mp4  
+   - assets/videos/3.mp4
+   - assets/videos/4.mp4
+   - assets/videos/5.mp4
+   - assets/videos/6.mp4
+   - assets/videos/7.mp4
+   - assets/videos/8.mp4
+   - assets/videos/9.mp4
